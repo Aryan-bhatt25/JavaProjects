@@ -26,6 +26,8 @@ class ValidPalindrome //class name
             System.out.println("\"" + sent + " \" is not a palindrome");
         }
 
+        sc.close() //closes the Scanner
+
     } //end of main
 
     public static boolean isPalindorme(String s)
