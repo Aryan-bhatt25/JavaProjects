@@ -17,7 +17,7 @@ class ValidParenthesis //class name
 
         System.out.println("Loading..."); //delay message
 
-        System.out.println(); 
+        System.out.println(); //printed for formatting
 
         Thread.sleep(3000); //introducing a delay
 
