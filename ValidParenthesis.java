@@ -100,7 +100,7 @@ class ValidParenthesis //class name
 
         } //end of for loop
 
-        if(chk==true && count == s.length())
+        if(chk==true && count == s.length()) //if chk variable is true or the counter variable is equal to the length of the string
         {
             return true; //return true if above conditions are met or the string is valid 
         }
