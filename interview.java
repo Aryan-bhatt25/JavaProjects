@@ -41,5 +41,12 @@ class interview //class name
         {
             Sytstem.out.println("Subject " + (i+1) + " Marks:" a[i]); //storing the values in the array
         }
+
+        CSVWriter writer = new CSVWriter(outputfile);
+        writer.writeNext(a); 
+
+        writer.close(); //closes the CSVWriter
+        sc.close(); //closes the Scanner
+
     }
 }
